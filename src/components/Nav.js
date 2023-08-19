@@ -51,7 +51,7 @@ const Nav = () => {
                     <option keys={event.id}>{event.name}</option>
                 ))}
             </select>
-            {/* <div className='container'>
+             <div className='container'>
                 <div>
                     <h1>{records[eventIndex].name}</h1>
                     <table className='table'>
@@ -78,7 +78,7 @@ const Nav = () => {
                         </tbody>
                     </table>
                 </div>
-            </div> */}
+            </div>
             <Event1 />
         </>
     );
