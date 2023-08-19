@@ -1,0 +1,20 @@
+{
+    "events": [
+        {
+            "name": "Tesseract",
+            "id": "e01"
+        },
+        {
+            "name": "Tesseract1",
+            "id": "e02"
+        },
+        {
+            "name": "event ka 3sra name",
+            "id": "e03"
+        },
+        {
+            "name": "event ka 4 name",
+            "id": "e04"
+        }
+    ]
+}

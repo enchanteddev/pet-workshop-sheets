@@ -1,0 +1,40 @@
+{
+  "data":["name","email","phone","CA"],
+  "events":
+  [
+    {
+    "name": "Tesseract",
+    "participants": [
+        {
+        "name": "Kaushik Rawat",
+        "email": "example@example.com",
+        "phone": 1234567890,
+        "CA": ""
+        },
+        {
+        "name": "Some Other Person",
+        "email": "example2@example.com",
+        "phone": 1234567890,
+        "CA": ""
+        }
+      ]
+    },
+    {
+    "name": "Tesseract1",
+    "participants": [
+        {
+        "name": "Kaushik Rawat",
+        "email": "example@example.com",
+        "phone": 1234567890,
+        "CA": ""
+        },
+        {
+        "name": "Some Other Person",
+        "email": "example2@example.com",
+        "phone": 1234567890,
+        "CA": ""
+        }
+      ]
+    }
+  ]
+}
