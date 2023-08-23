@@ -1,11 +1,13 @@
 import {React,useState,useEffect} from 'react'
+import { useLocation } from 'react-router-dom'
 
 
 
-export default function Event1() {
+export default function Table() {
     const [column, setColumn] = useState([])
     const [records, setRecords] = useState([])
     const [name, setName] = useState('')
+    const eventName = useLocation();
 
 
     useEffect(() => {
@@ -21,7 +23,7 @@ export default function Event1() {
     return (
         <div className='container'>
             <div>
-                <h1>{name}</h1>
+                <h1>{name}: @ {eventName.pathname}</h1>
                 <table className='table'>
                     <thead>
                         <tr>
